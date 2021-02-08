@@ -19,7 +19,6 @@
     // If enabled, formatted data is also copied to your clipboard
     "copyFormatting": false,
     "alwaysOnTop": true,
-
     "useTabSwitcher": true,
 
     // A profile specifies a command to execute paired with information about how it should look and feel.
@@ -135,24 +134,22 @@
             "command": "paste",
             "keys": "ctrl+v"
         },
-
         // Press Ctrl+Shift+F to open the search box
         {
             "command": "find",
             "keys": "ctrl+shift+f"
         },
-
         // Always On Top
         {
             "command": "toggleAlwaysOnTop",
             "keys": "ctrl+alt+space"
         },
-
+        // Command Palette
         {
             "command": "commandPalette",
             "keys": "ctrl+shift+p"
         },
-
+        // Tab Color Picker
         {
             "command": "openTabColorPicker",
             "keys": "ctrl+b"
